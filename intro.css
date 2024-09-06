@@ -1,14 +1,23 @@
 * {
     background-color: rgb(232, 180, 223);
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+    Arial, sans-serif;
+    margin-left: 5px;
 }
 img {
     border-radius: 50%;
     width: 250px;
     height: auto;
-    border: 2px solid;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    background-clip: border-box;
 }
 :is(h1, h2, h4) {
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 10px;
 }
 a {
     font-size: smaller;
@@ -21,4 +30,14 @@ ol {
 }
 #characteristics {
     color: azure;
+}
+header {
+    font-size: smaller;
+    font-style: italic;
+}
+footer {
+    font-size: x-small;
+}
+p {
+    padding: 5px 10px 15px 5px;
 }
