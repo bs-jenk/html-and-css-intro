@@ -7,3 +7,18 @@ img {
     height: auto;
     border: 2px solid;
 }
+:is(h1, h2, h4) {
+    font-family:'Courier New', Courier, monospace
+}
+a {
+    font-size: smaller;
+}
+ul {
+    color: cornflowerblue;
+}
+ol {
+    color: azure;
+}
+#characteristics {
+    color: azure;
+}
